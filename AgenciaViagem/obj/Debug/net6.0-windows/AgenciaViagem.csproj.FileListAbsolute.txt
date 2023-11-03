@@ -1,0 +1,105 @@
+C:\Users\pache\source\repos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.csproj.AssemblyReference.cache
+C:\Users\pache\source\repos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.Views.fSugestChatgpt.resources
+C:\Users\pache\source\repos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.csproj.GenerateResource.cache
+C:\Users\pache\source\repos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pache\source\repos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.AssemblyInfoInputs.cache
+C:\Users\pache\source\repos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.AssemblyInfo.cs
+C:\Users\pache\source\repos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.csproj.CoreCompileInputs.cache
+C:\Users\pache\source\repos\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\AgenciaViagem.exe
+C:\Users\pache\source\repos\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\AgenciaViagem.deps.json
+C:\Users\pache\source\repos\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\AgenciaViagem.runtimeconfig.json
+C:\Users\pache\source\repos\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\AgenciaViagem.dll
+C:\Users\pache\source\repos\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\AgenciaViagem.pdb
+C:\Users\pache\source\repos\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\pache\source\repos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.csproj.CopyComplete
+C:\Users\pache\source\repos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.dll
+C:\Users\pache\source\repos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\refint\AgenciaViagem.dll
+C:\Users\pache\source\repos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.pdb
+C:\Users\pache\source\repos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.genruntimeconfig.cache
+C:\Users\pache\source\repos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\ref\AgenciaViagem.dll
+C:\Users\pache\source\repos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.Views.fLogin.resources
+C:\Users\pache\source\repos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.Properties.Resources.resources
+C:\Users\pache\source\repos\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\Guna.UI2.dll
+C:\Users\pache\source\repos\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\System.Management.dll
+C:\Users\pache\source\repos\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Management.dll
+C:\Users\pache\source\repos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.Views.fCadastrarCliente.resources
+C:\Users\pache\source\repos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.Controlls.fCategoria.resources
+C:\Users\pache\source\repos\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\pache\source\repos\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\pache\source\repos\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\pache\source\repos\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\pache\source\repos\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\pache\source\repos\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\pache\source\repos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.Views.fCategoria23.resources
+C:\Users\pache\source\repos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.Views.fCategoriaConsultar.resources
+C:\Users\Lucas\Desktop\AgenciaViagem (1)\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\AgenciaViagem.exe
+C:\Users\Lucas\Desktop\AgenciaViagem (1)\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\AgenciaViagem.deps.json
+C:\Users\Lucas\Desktop\AgenciaViagem (1)\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\AgenciaViagem.runtimeconfig.json
+C:\Users\Lucas\Desktop\AgenciaViagem (1)\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\AgenciaViagem.dll
+C:\Users\Lucas\Desktop\AgenciaViagem (1)\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\AgenciaViagem.pdb
+C:\Users\Lucas\Desktop\AgenciaViagem (1)\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\Guna.UI2.dll
+C:\Users\Lucas\Desktop\AgenciaViagem (1)\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\Lucas\Desktop\AgenciaViagem (1)\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Lucas\Desktop\AgenciaViagem (1)\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\System.Management.dll
+C:\Users\Lucas\Desktop\AgenciaViagem (1)\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Lucas\Desktop\AgenciaViagem (1)\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Lucas\Desktop\AgenciaViagem (1)\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Lucas\Desktop\AgenciaViagem (1)\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Lucas\Desktop\AgenciaViagem (1)\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Lucas\Desktop\AgenciaViagem (1)\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Management.dll
+C:\Users\Lucas\Desktop\AgenciaViagem (1)\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.csproj.AssemblyReference.cache
+C:\Users\Lucas\Desktop\AgenciaViagem (1)\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.Properties.Resources.resources
+C:\Users\Lucas\Desktop\AgenciaViagem (1)\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.Views.fCadastrarCliente.resources
+C:\Users\Lucas\Desktop\AgenciaViagem (1)\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.Controlls.fCategoria.resources
+C:\Users\Lucas\Desktop\AgenciaViagem (1)\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.Views.fCategoria23.resources
+C:\Users\Lucas\Desktop\AgenciaViagem (1)\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.Views.fCategoriaConsultar.resources
+C:\Users\Lucas\Desktop\AgenciaViagem (1)\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.Views.fLogin.resources
+C:\Users\Lucas\Desktop\AgenciaViagem (1)\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.Views.fSugestChatgpt.resources
+C:\Users\Lucas\Desktop\AgenciaViagem (1)\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.csproj.GenerateResource.cache
+C:\Users\Lucas\Desktop\AgenciaViagem (1)\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas\Desktop\AgenciaViagem (1)\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.AssemblyInfoInputs.cache
+C:\Users\Lucas\Desktop\AgenciaViagem (1)\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.AssemblyInfo.cs
+C:\Users\Lucas\Desktop\AgenciaViagem (1)\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Desktop\AgenciaViagem (1)\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.csproj.CopyComplete
+C:\Users\Lucas\Desktop\AgenciaViagem (1)\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.dll
+C:\Users\Lucas\Desktop\AgenciaViagem (1)\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\refint\AgenciaViagem.dll
+C:\Users\Lucas\Desktop\AgenciaViagem (1)\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.pdb
+C:\Users\Lucas\Desktop\AgenciaViagem (1)\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.genruntimeconfig.cache
+C:\Users\Lucas\Desktop\AgenciaViagem (1)\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\ref\AgenciaViagem.dll
+C:\Users\pache\OneDrive\Documentos\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\AgenciaViagem.exe
+C:\Users\pache\OneDrive\Documentos\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\AgenciaViagem.deps.json
+C:\Users\pache\OneDrive\Documentos\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\AgenciaViagem.runtimeconfig.json
+C:\Users\pache\OneDrive\Documentos\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\AgenciaViagem.dll
+C:\Users\pache\OneDrive\Documentos\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\AgenciaViagem.pdb
+C:\Users\pache\OneDrive\Documentos\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\Guna.UI2.dll
+C:\Users\pache\OneDrive\Documentos\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\pache\OneDrive\Documentos\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\pache\OneDrive\Documentos\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\System.Management.dll
+C:\Users\pache\OneDrive\Documentos\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\pache\OneDrive\Documentos\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\pache\OneDrive\Documentos\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\pache\OneDrive\Documentos\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\pache\OneDrive\Documentos\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\pache\OneDrive\Documentos\AgenciaViagem\AgenciaViagem\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Management.dll
+C:\Users\pache\OneDrive\Documentos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.csproj.AssemblyReference.cache
+C:\Users\pache\OneDrive\Documentos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.Properties.Resources.resources
+C:\Users\pache\OneDrive\Documentos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.Views.fCadastrarCliente.resources
+C:\Users\pache\OneDrive\Documentos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.Views.fCategoriaConsultar.resources
+C:\Users\pache\OneDrive\Documentos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.Views.fLogin.resources
+C:\Users\pache\OneDrive\Documentos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.Views.fSugestChatgpt.resources
+C:\Users\pache\OneDrive\Documentos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.csproj.GenerateResource.cache
+C:\Users\pache\OneDrive\Documentos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pache\OneDrive\Documentos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.AssemblyInfoInputs.cache
+C:\Users\pache\OneDrive\Documentos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.AssemblyInfo.cs
+C:\Users\pache\OneDrive\Documentos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.csproj.CoreCompileInputs.cache
+C:\Users\pache\OneDrive\Documentos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.csproj.CopyComplete
+C:\Users\pache\OneDrive\Documentos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.dll
+C:\Users\pache\OneDrive\Documentos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\refint\AgenciaViagem.dll
+C:\Users\pache\OneDrive\Documentos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.pdb
+C:\Users\pache\OneDrive\Documentos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.genruntimeconfig.cache
+C:\Users\pache\OneDrive\Documentos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\ref\AgenciaViagem.dll
+C:\Users\pache\OneDrive\Documentos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.Views.fCategoria.resources
+C:\Users\pache\OneDrive\Documentos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.Views.fMenu.resources
+C:\Users\pache\OneDrive\Documentos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.Views.fPergunta.resources
+C:\Users\pache\OneDrive\Documentos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.Views.fPerguntaConsultar.resources
+C:\Users\pache\OneDrive\Documentos\AgenciaViagem\AgenciaViagem\obj\Debug\net6.0-windows\AgenciaViagem.Views.fConfiguração.resources

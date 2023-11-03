@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Views\fCadastrarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Configuração\Categoria\fCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Configuração\Categoria\fCategoriaConsultar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\fConfiguração.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\fLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\fMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Configuração\Perguntas\fPergunta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Configuração\Perguntas\fPerguntaConsultar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\fSugestChatgpt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
