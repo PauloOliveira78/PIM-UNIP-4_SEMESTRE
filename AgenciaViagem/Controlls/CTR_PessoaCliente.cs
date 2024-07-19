@@ -1,92 +1,77 @@
-﻿using AgenciaViagem.Controlls;
-using AgenciaViagem.Dal;
+﻿using AgenciaViagem.Dal;
+using AgenciaViagem.Dao;
 using AgenciaViagem.Models;
-using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace AgenciaViagem.Controlls
 {
+    /// <summary>
+    /// Controlador para manipulação de operações relacionadas a clientes.
+    /// </summary>
     internal class CTR_PessoaCliente
     {
         private PessoaCliente cliente;
         private DAOConexaoSqlServer conexao;
+
+        /// <summary>
+        /// Construtor padrão que inicializa as propriedades da classe.
+        /// </summary>
         public CTR_PessoaCliente()
         {
             cliente = new PessoaCliente();
             conexao = new DAOConexaoSqlServer();
         }
+
+        /// <summary>
+        /// Cria um novo cliente.
+        /// </summary>
+        /// <param name="cliente">Cliente a ser criado.</param>
         public void CriarCliente(PessoaCliente cliente)
         {
-            try
-            {
-                conexao.AbrirConexao();
-
-             
-                string verificaClienteQuery = "SELECT COUNT(*) FROM CLIENTE WHERE LO = @LO";
-
-                using (SqlCommand verificaClienteCommand = new SqlCommand(verificaClienteQuery, conexao.GetConnection()))
-                {
-                    verificaClienteCommand.Parameters.AddWithValue("@LO", cliente.Login);
-                    int count = (int)verificaClienteCommand.ExecuteScalar();
-
-                    if (count > 0)
-                    {
-                        MessageBox.Show("Esse Usuario já existe.");
-                        return;
-                    }
-                }
-                string sqlQuery = "INSERT INTO CLIENTE (NO, NU, GE, CP, TF, ED, CD, PS, EM, LO, SN) VALUES (@NO, @NU, @GE, @CP, @TF, @ED, @CD, @PS, @EM, @LO, @SN)";
-
-                using (SqlCommand command = new SqlCommand(sqlQuery, conexao.GetConnection()))
-                {
-                    command.Parameters.AddWithValue("@NO", cliente.Nome);
-                    command.Parameters.AddWithValue("@NU", cliente.Idade);
-                    command.Parameters.AddWithValue("@GE", cliente.Genero);
-                    command.Parameters.AddWithValue("@CP", cliente.CPF);
-                    command.Parameters.AddWithValue("@TF", cliente.Telefone);
-                    command.Parameters.AddWithValue("@ED", cliente.Endereco);
-                    command.Parameters.AddWithValue("@CD", cliente.Cidade);
-                    command.Parameters.AddWithValue("@PS", cliente.Pais);
-                    command.Parameters.AddWithValue("@EM", cliente.Email);
-                    command.Parameters.AddWithValue("@LO", cliente.Login);
-                    command.Parameters.AddWithValue("@SN", cliente.Senha);
-                    command.ExecuteNonQuery();
-                }
-
-                MessageBox.Show("Cliente adicionado com sucesso!");
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Erro ao adicionar cliente: " + ex.Message);
-            }
-            finally
-            {
-                conexao.FecharConexao();
-            }
+            DAOPessoaCliente daocliente = new DAOPessoaCliente(conexao);
+            daocliente.create(cliente);
         }
-    
 
-            
-        
+        /// <summary>
+        /// Autentica um cliente para login.
+        /// </summary>
+        /// <param name="pessoaCliente">Cliente a ser autenticado.</param>
+        /// <returns>Objeto de sessão com informações de autenticação.</returns>
+        public Sessao autenticador(PessoaCliente pessoaCliente)
+        {
+            DAOPessoaCliente daocliente = new DAOPessoaCliente(conexao);
+            Sessao sessao = daocliente.ValidarLogin(pessoaCliente);
+            Sessao resultado = new Sessao();
+            resultado.ValidarUsuario = sessao.ValidarUsuario;
+            return resultado;
+        }
+
+        /// <summary>
+        /// Obtém informações de um cliente.
+        /// </summary>
+        /// <param name="PessoaCliente">Cliente a ser obtido.</param>
+        /// <returns>Informações do cliente.</returns>
         public PessoaCliente LerCliente(PessoaCliente PessoaCliente)
         {
-          
             return PessoaCliente;
         }
+
+        /// <summary>
+        /// Atualiza informações de um cliente existente.
+        /// </summary>
+        /// <param name="cliente">Cliente a ser atualizado.</param>
         public void AtualizarCliente(PessoaCliente cliente)
         {
-            // Lógica para atualizar um cliente
+            DAOPessoaCliente daocliente = new DAOPessoaCliente(conexao);
+            daocliente.update(cliente);
         }
 
+        /// <summary>
+        /// Deleta um cliente pelo ID.
+        /// </summary>
+        /// <param name="cliente">Cliente a ser removido.</param>
         public void DeletarCliente(PessoaCliente cliente)
         {
             // Lógica para deletar um cliente pelo ID
         }
-        
     }
 }

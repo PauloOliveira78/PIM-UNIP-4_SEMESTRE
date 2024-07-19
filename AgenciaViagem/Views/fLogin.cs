@@ -1,60 +1,67 @@
 ﻿using AgenciaViagem.Controlls;
 using AgenciaViagem.Models;
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace AgenciaViagem.Views
 {
+
     public partial class fLogin : Form
     {
-
-        private CTR_PessoaCliente CTR_PessoaCliente; // Instância do controlador
+        /// <summary>
+        /// Classe parcial responsável pelo formulário de login da aplicação.
+        /// </summary>
+        private CTR_PessoaCliente CTR_PessoaCliente;
 
         public fLogin()
         {
             InitializeComponent();
-
-            //TODO: Lucas
-            // Inicializando o controle PessoaCliente
-            CTR_PessoaCliente = new CTR_PessoaCliente();
-        }
-      
-        private void Entrar_Click(object sender, EventArgs e)
-        {
-           
         }
 
+        /// <summary>
+        /// Evento acionado ao clicar no link para cadastro.
+        /// Abre o formulário de cadastro de cliente.
+        /// </summary>
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            //TODO: Lucas
-            //Chamada do formulario fCadastrarCliente
-
             var cadastrar = new fCadastrarCliente();
             cadastrar.Show();
-
             this.Visible = false;
         }
 
-        private void fLogin_Load(object sender, EventArgs e)
+        /// <summary>
+        /// Evento acionado ao clicar no botão "Entrar".
+        /// Realiza a autenticação do usuário com base no login e senha inseridos.
+        /// </summary>
+        private void Entrar_Click_1(object sender, EventArgs e)
         {
+            CTR_PessoaCliente ctr_pessoacliente = new CTR_PessoaCliente();
+            PessoaCliente pessoaCliente = new PessoaCliente();
+            pessoaCliente.Login = txtCliente.Text;
 
+            if (int.TryParse(txtSenha.Text, out int senha))
+            {
+                pessoaCliente.Senha = senha;
+
+                Sessao sessao = ctr_pessoacliente.autenticador(pessoaCliente);
+
+                if (sessao.ValidarUsuario)
+                {
+                    MessageBox.Show("Login bem-sucedido!");
+
+                    fMenu fMenu = new fMenu();
+                    fMenu.Show();
+
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Usuário ou senha incorretos.");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Formato inválido para senha. Insira um número válido.");
+            }
         }
-
-        private void guna2ImageButton1_Click(object sender, EventArgs e)
-        {
-
-        }
-
     }
 }
 

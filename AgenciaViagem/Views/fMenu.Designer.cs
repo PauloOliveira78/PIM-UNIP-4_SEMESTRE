@@ -29,219 +29,341 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
-            guna2TabControl1 = new Guna.UI2.WinForms.Guna2TabControl();
-            tabPage1 = new TabPage();
-            tabPage2 = new TabPage();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fMenu));
             guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(components);
-            Fechar = new Button();
-            AlterarCategoria = new Button();
-            button1 = new Button();
-            textBox1 = new TextBox();
-            DGV_CatCo = new DataGridView();
-            ID = new DataGridViewTextBoxColumn();
-            DS = new DataGridViewTextBoxColumn();
-            DeletarCategoria = new Button();
+            BarraTitulo = new Panel();
+            btnRestaurar = new PictureBox();
+            btnMinimizar = new PictureBox();
+            btnMaximizar = new PictureBox();
+            btnEncerrar = new PictureBox();
+            MenuVertical = new Panel();
+            panel4 = new Panel();
+            Conta = new Button();
+            panel3 = new Panel();
+            btnQuestionario = new Button();
+            panel2 = new Panel();
+            btnDestino = new Button();
+            pictureBox3 = new PictureBox();
             panel1 = new Panel();
-            guna2TabControl1.SuspendLayout();
-            tabPage1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)DGV_CatCo).BeginInit();
-            panel1.SuspendLayout();
+            btnConfiguracao = new Button();
+            pictureBox2 = new PictureBox();
+            panelCenter = new Panel();
+            labelPergunta = new Label();
+            pictureBox1 = new PictureBox();
+            panel5 = new Panel();
+            BarraTitulo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)btnRestaurar).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)btnMinimizar).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)btnMaximizar).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)btnEncerrar).BeginInit();
+            MenuVertical.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            panelCenter.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
-            // guna2TabControl1
+            // BarraTitulo
             // 
-            guna2TabControl1.Alignment = TabAlignment.Left;
-            guna2TabControl1.Controls.Add(tabPage1);
-            guna2TabControl1.Controls.Add(tabPage2);
-            guna2TabControl1.ItemSize = new Size(180, 40);
-            guna2TabControl1.Location = new Point(163, 1);
-            guna2TabControl1.Name = "guna2TabControl1";
-            guna2TabControl1.SelectedIndex = 0;
-            guna2TabControl1.Size = new Size(1102, 708);
-            guna2TabControl1.TabButtonHoverState.BorderColor = Color.Empty;
-            guna2TabControl1.TabButtonHoverState.FillColor = Color.FromArgb(40, 52, 70);
-            guna2TabControl1.TabButtonHoverState.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2TabControl1.TabButtonHoverState.ForeColor = Color.White;
-            guna2TabControl1.TabButtonHoverState.InnerColor = Color.FromArgb(40, 52, 70);
-            guna2TabControl1.TabButtonIdleState.BorderColor = Color.Empty;
-            guna2TabControl1.TabButtonIdleState.FillColor = Color.FromArgb(33, 42, 57);
-            guna2TabControl1.TabButtonIdleState.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2TabControl1.TabButtonIdleState.ForeColor = Color.FromArgb(156, 160, 167);
-            guna2TabControl1.TabButtonIdleState.InnerColor = Color.FromArgb(33, 42, 57);
-            guna2TabControl1.TabButtonSelectedState.BorderColor = Color.Empty;
-            guna2TabControl1.TabButtonSelectedState.FillColor = Color.FromArgb(29, 37, 49);
-            guna2TabControl1.TabButtonSelectedState.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2TabControl1.TabButtonSelectedState.ForeColor = Color.White;
-            guna2TabControl1.TabButtonSelectedState.InnerColor = Color.FromArgb(76, 132, 255);
-            guna2TabControl1.TabButtonSize = new Size(180, 40);
-            guna2TabControl1.TabIndex = 0;
-            guna2TabControl1.TabMenuBackColor = Color.FromArgb(33, 42, 57);
+            BarraTitulo.BackColor = Color.FromArgb(76, 132, 255);
+            BarraTitulo.Controls.Add(btnRestaurar);
+            BarraTitulo.Controls.Add(btnMinimizar);
+            BarraTitulo.Controls.Add(btnMaximizar);
+            BarraTitulo.Controls.Add(btnEncerrar);
+            BarraTitulo.Dock = DockStyle.Top;
+            BarraTitulo.Location = new Point(0, 0);
+            BarraTitulo.Name = "BarraTitulo";
+            BarraTitulo.Size = new Size(1300, 31);
+            BarraTitulo.TabIndex = 0;
             // 
-            // tabPage1
+            // btnRestaurar
             // 
-            tabPage1.Controls.Add(button1);
-            tabPage1.Controls.Add(textBox1);
-            tabPage1.Controls.Add(panel1);
-            tabPage1.Location = new Point(184, 4);
-            tabPage1.Name = "tabPage1";
-            tabPage1.Padding = new Padding(3);
-            tabPage1.Size = new Size(914, 700);
-            tabPage1.TabIndex = 0;
-            tabPage1.Text = "Categoria";
-            tabPage1.UseVisualStyleBackColor = true;
+            btnRestaurar.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnRestaurar.Cursor = Cursors.Hand;
+            btnRestaurar.Image = (Image)resources.GetObject("btnRestaurar.Image");
+            btnRestaurar.InitialImage = null;
+            btnRestaurar.Location = new Point(1237, 8);
+            btnRestaurar.Name = "btnRestaurar";
+            btnRestaurar.Size = new Size(15, 15);
+            btnRestaurar.SizeMode = PictureBoxSizeMode.Zoom;
+            btnRestaurar.TabIndex = 3;
+            btnRestaurar.TabStop = false;
+            btnRestaurar.Click += btnRestaurar_Click_1;
             // 
-            // tabPage2
+            // btnMinimizar
             // 
-            tabPage2.Location = new Point(184, 4);
-            tabPage2.Name = "tabPage2";
-            tabPage2.Padding = new Padding(3);
-            tabPage2.Size = new Size(447, 444);
-            tabPage2.TabIndex = 1;
-            tabPage2.Text = "Consultar Categoria";
-            tabPage2.UseVisualStyleBackColor = true;
+            btnMinimizar.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnMinimizar.Cursor = Cursors.Hand;
+            btnMinimizar.Image = (Image)resources.GetObject("btnMinimizar.Image");
+            btnMinimizar.InitialImage = null;
+            btnMinimizar.Location = new Point(1202, 8);
+            btnMinimizar.Name = "btnMinimizar";
+            btnMinimizar.Size = new Size(15, 15);
+            btnMinimizar.SizeMode = PictureBoxSizeMode.Zoom;
+            btnMinimizar.TabIndex = 2;
+            btnMinimizar.TabStop = false;
+            btnMinimizar.Click += btnMinimizar_Click_1;
             // 
-            // Fechar
+            // btnMaximizar
             // 
-            Fechar.Location = new Point(12, 166);
-            Fechar.Name = "Fechar";
-            Fechar.Size = new Size(138, 61);
-            Fechar.TabIndex = 18;
-            Fechar.Text = "Configurações";
-            Fechar.UseVisualStyleBackColor = true;
+            btnMaximizar.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnMaximizar.Cursor = Cursors.Hand;
+            btnMaximizar.Image = (Image)resources.GetObject("btnMaximizar.Image");
+            btnMaximizar.InitialImage = null;
+            btnMaximizar.Location = new Point(1237, 8);
+            btnMaximizar.Name = "btnMaximizar";
+            btnMaximizar.Size = new Size(15, 15);
+            btnMaximizar.SizeMode = PictureBoxSizeMode.Zoom;
+            btnMaximizar.TabIndex = 1;
+            btnMaximizar.TabStop = false;
+            btnMaximizar.Click += btnMaximizar_Click_1;
             // 
-            // AlterarCategoria
+            // btnEncerrar
             // 
-            AlterarCategoria.Location = new Point(12, 5);
-            AlterarCategoria.Name = "AlterarCategoria";
-            AlterarCategoria.Size = new Size(138, 61);
-            AlterarCategoria.TabIndex = 17;
-            AlterarCategoria.Text = "Rota";
-            AlterarCategoria.UseVisualStyleBackColor = true;
+            btnEncerrar.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnEncerrar.Cursor = Cursors.Hand;
+            btnEncerrar.Image = Properties.Resources.cerrar;
+            btnEncerrar.InitialImage = null;
+            btnEncerrar.Location = new Point(1271, 8);
+            btnEncerrar.Name = "btnEncerrar";
+            btnEncerrar.Size = new Size(15, 15);
+            btnEncerrar.SizeMode = PictureBoxSizeMode.Zoom;
+            btnEncerrar.TabIndex = 0;
+            btnEncerrar.TabStop = false;
+            btnEncerrar.Click += btnEncerrar_Click_1;
             // 
-            // button1
+            // MenuVertical
             // 
-            button1.Location = new Point(469, 52);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 36);
-            button1.TabIndex = 15;
-            button1.Text = "Pesquisar";
-            button1.UseVisualStyleBackColor = true;
+            MenuVertical.BackColor = Color.FromArgb(33, 42, 57);
+            MenuVertical.Controls.Add(panel4);
+            MenuVertical.Controls.Add(Conta);
+            MenuVertical.Controls.Add(panel3);
+            MenuVertical.Controls.Add(btnQuestionario);
+            MenuVertical.Controls.Add(panel2);
+            MenuVertical.Controls.Add(btnDestino);
+            MenuVertical.Controls.Add(panel1);
+            MenuVertical.Controls.Add(btnConfiguracao);
+            MenuVertical.Controls.Add(panel5);
+            MenuVertical.Controls.Add(pictureBox3);
+            MenuVertical.Controls.Add(pictureBox2);
+            MenuVertical.Dock = DockStyle.Left;
+            MenuVertical.Location = new Point(0, 31);
+            MenuVertical.Name = "MenuVertical";
+            MenuVertical.Size = new Size(213, 619);
+            MenuVertical.TabIndex = 1;
             // 
-            // textBox1
+            // panel4
             // 
-            textBox1.Location = new Point(286, 59);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(177, 23);
-            textBox1.TabIndex = 14;
+            panel4.BackColor = Color.FromArgb(76, 132, 255);
+            panel4.Location = new Point(1, 268);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(5, 38);
+            panel4.TabIndex = 7;
             // 
-            // DGV_CatCo
+            // Conta
             // 
-            DGV_CatCo.AllowUserToResizeRows = false;
-            dataGridViewCellStyle4.BackColor = Color.White;
-            dataGridViewCellStyle4.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle4.ForeColor = SystemColors.ControlText;
-            dataGridViewCellStyle4.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = SystemColors.HighlightText;
-            DGV_CatCo.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
-            DGV_CatCo.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            DGV_CatCo.BorderStyle = BorderStyle.None;
-            DGV_CatCo.CellBorderStyle = DataGridViewCellBorderStyle.None;
-            DGV_CatCo.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = SystemColors.Control;
-            dataGridViewCellStyle5.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle5.ForeColor = SystemColors.WindowText;
-            dataGridViewCellStyle5.SelectionBackColor = SystemColors.Control;
-            dataGridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = DataGridViewTriState.True;
-            DGV_CatCo.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
-            DGV_CatCo.Columns.AddRange(new DataGridViewColumn[] { ID, DS });
-            DGV_CatCo.EnableHeadersVisualStyles = false;
-            DGV_CatCo.Location = new Point(-3, 83);
-            DGV_CatCo.Name = "DGV_CatCo";
-            DGV_CatCo.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = SystemColors.Window;
-            dataGridViewCellStyle6.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle6.ForeColor = SystemColors.WindowText;
-            dataGridViewCellStyle6.SelectionBackColor = SystemColors.Window;
-            dataGridViewCellStyle6.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = DataGridViewTriState.True;
-            DGV_CatCo.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
-            DGV_CatCo.RowTemplate.Height = 25;
-            DGV_CatCo.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            DGV_CatCo.Size = new Size(384, 210);
-            DGV_CatCo.TabIndex = 13;
+            Conta.BackColor = Color.Transparent;
+            Conta.Cursor = Cursors.Hand;
+            Conta.FlatAppearance.BorderSize = 0;
+            Conta.FlatAppearance.MouseOverBackColor = Color.FromArgb(76, 132, 255);
+            Conta.FlatStyle = FlatStyle.Flat;
+            Conta.Font = new Font("Century Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            Conta.ForeColor = Color.White;
+            Conta.Image = (Image)resources.GetObject("Conta.Image");
+            Conta.ImageAlign = ContentAlignment.MiddleLeft;
+            Conta.Location = new Point(6, 268);
+            Conta.Name = "Conta";
+            Conta.Size = new Size(204, 38);
+            Conta.TabIndex = 8;
+            Conta.Text = "Conta";
+            Conta.UseVisualStyleBackColor = false;
+            Conta.Click += Conta_Click;
             // 
-            // ID
+            // panel3
             // 
-            ID.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            ID.DataPropertyName = "ID";
-            ID.FillWeight = 76.1421356F;
-            ID.HeaderText = "ID";
-            ID.Name = "ID";
+            panel3.BackColor = Color.FromArgb(76, 132, 255);
+            panel3.Location = new Point(1, 120);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(5, 38);
+            panel3.TabIndex = 5;
             // 
-            // DS
+            // btnQuestionario
             // 
-            DS.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            DS.DataPropertyName = "DS";
-            DS.FillWeight = 123.857864F;
-            DS.HeaderText = "Descrição";
-            DS.Name = "DS";
+            btnQuestionario.BackColor = Color.Transparent;
+            btnQuestionario.Cursor = Cursors.Hand;
+            btnQuestionario.FlatAppearance.BorderSize = 0;
+            btnQuestionario.FlatAppearance.MouseOverBackColor = Color.FromArgb(76, 132, 255);
+            btnQuestionario.FlatStyle = FlatStyle.Flat;
+            btnQuestionario.Font = new Font("Century Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            btnQuestionario.ForeColor = Color.White;
+            btnQuestionario.Image = (Image)resources.GetObject("btnQuestionario.Image");
+            btnQuestionario.ImageAlign = ContentAlignment.MiddleLeft;
+            btnQuestionario.Location = new Point(4, 119);
+            btnQuestionario.Name = "btnQuestionario";
+            btnQuestionario.Size = new Size(207, 39);
+            btnQuestionario.TabIndex = 6;
+            btnQuestionario.Text = "Questionario";
+            btnQuestionario.UseVisualStyleBackColor = false;
+            btnQuestionario.Click += btnQuestionario_Click_1;
             // 
-            // DeletarCategoria
+            // panel2
             // 
-            DeletarCategoria.Location = new Point(12, 86);
-            DeletarCategoria.Name = "DeletarCategoria";
-            DeletarCategoria.Size = new Size(138, 61);
-            DeletarCategoria.TabIndex = 12;
-            DeletarCategoria.Text = "Perfil";
-            DeletarCategoria.UseVisualStyleBackColor = true;
+            panel2.BackColor = Color.FromArgb(76, 132, 255);
+            panel2.Location = new Point(1, 167);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(5, 38);
+            panel2.TabIndex = 3;
+            // 
+            // btnDestino
+            // 
+            btnDestino.BackColor = Color.Transparent;
+            btnDestino.Cursor = Cursors.Hand;
+            btnDestino.FlatAppearance.BorderSize = 0;
+            btnDestino.FlatAppearance.MouseOverBackColor = Color.FromArgb(76, 132, 255);
+            btnDestino.FlatStyle = FlatStyle.Flat;
+            btnDestino.Font = new Font("Century Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            btnDestino.ForeColor = Color.White;
+            btnDestino.Image = (Image)resources.GetObject("btnDestino.Image");
+            btnDestino.ImageAlign = ContentAlignment.MiddleLeft;
+            btnDestino.Location = new Point(4, 164);
+            btnDestino.Name = "btnDestino";
+            btnDestino.Size = new Size(207, 41);
+            btnDestino.TabIndex = 4;
+            btnDestino.Text = "Destino";
+            btnDestino.UseVisualStyleBackColor = false;
+            btnDestino.Click += btnDestino_Click;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.Dock = DockStyle.Bottom;
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Location = new Point(0, 580);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(213, 39);
+            pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox3.TabIndex = 2;
+            pictureBox3.TabStop = false;
             // 
             // panel1
             // 
-            panel1.Controls.Add(DGV_CatCo);
-            panel1.Location = new Point(229, 33);
+            panel1.BackColor = Color.FromArgb(76, 132, 255);
+            panel1.Location = new Point(1, 218);
             panel1.Name = "panel1";
-            panel1.Size = new Size(384, 296);
-            panel1.TabIndex = 16;
+            panel1.Size = new Size(5, 38);
+            panel1.TabIndex = 1;
+            // 
+            // btnConfiguracao
+            // 
+            btnConfiguracao.BackColor = Color.Transparent;
+            btnConfiguracao.Cursor = Cursors.Hand;
+            btnConfiguracao.FlatAppearance.BorderSize = 0;
+            btnConfiguracao.FlatAppearance.MouseOverBackColor = Color.FromArgb(76, 132, 255);
+            btnConfiguracao.FlatStyle = FlatStyle.Flat;
+            btnConfiguracao.Font = new Font("Century Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            btnConfiguracao.ForeColor = Color.White;
+            btnConfiguracao.Image = (Image)resources.GetObject("btnConfiguracao.Image");
+            btnConfiguracao.ImageAlign = ContentAlignment.MiddleLeft;
+            btnConfiguracao.Location = new Point(4, 218);
+            btnConfiguracao.Name = "btnConfiguracao";
+            btnConfiguracao.Size = new Size(207, 38);
+            btnConfiguracao.TabIndex = 1;
+            btnConfiguracao.Text = "Configurações";
+            btnConfiguracao.UseVisualStyleBackColor = false;
+            btnConfiguracao.Click += btnConfiguracao_Click;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(0, 0);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(213, 113);
+            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox2.TabIndex = 0;
+            pictureBox2.TabStop = false;
+            // 
+            // panelCenter
+            // 
+            panelCenter.BackColor = Color.White;
+            panelCenter.Controls.Add(labelPergunta);
+            panelCenter.Controls.Add(pictureBox1);
+            panelCenter.Dock = DockStyle.Fill;
+            panelCenter.Location = new Point(213, 31);
+            panelCenter.Name = "panelCenter";
+            panelCenter.Size = new Size(1087, 619);
+            panelCenter.TabIndex = 0;
+            // 
+            // labelPergunta
+            // 
+            labelPergunta.AutoSize = true;
+            labelPergunta.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            labelPergunta.Location = new Point(238, 172);
+            labelPergunta.Name = "labelPergunta";
+            labelPergunta.Size = new Size(0, 25);
+            labelPergunta.TabIndex = 5;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Location = new Point(915, -26);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(25, 25);
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
+            // 
+            // panel5
+            // 
+            panel5.Location = new Point(0, 119);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(213, 187);
+            panel5.TabIndex = 9;
             // 
             // fMenu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1260, 450);
-            Controls.Add(Fechar);
-            Controls.Add(guna2TabControl1);
-            Controls.Add(AlterarCategoria);
-            Controls.Add(DeletarCategoria);
+            ClientSize = new Size(1300, 650);
+            Controls.Add(panelCenter);
+            Controls.Add(MenuVertical);
+            Controls.Add(BarraTitulo);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "fMenu";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "fMenu";
-            guna2TabControl1.ResumeLayout(false);
-            tabPage1.ResumeLayout(false);
-            tabPage1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)DGV_CatCo).EndInit();
-            panel1.ResumeLayout(false);
+            BarraTitulo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)btnRestaurar).EndInit();
+            ((System.ComponentModel.ISupportInitialize)btnMinimizar).EndInit();
+            ((System.ComponentModel.ISupportInitialize)btnMaximizar).EndInit();
+            ((System.ComponentModel.ISupportInitialize)btnEncerrar).EndInit();
+            MenuVertical.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            panelCenter.ResumeLayout(false);
+            panelCenter.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
-
-        private Guna.UI2.WinForms.Guna2TabControl guna2TabControl1;
-        private TabPage tabPage1;
-        private TabPage tabPage2;
         private Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow1;
-        private Button Fechar;
-        private Button AlterarCategoria;
-        private Button button1;
-        private TextBox textBox1;
-        private Button DeletarCategoria;
+        private Panel BarraTitulo;
+        private Panel MenuVertical;
+        private Panel panelCenter;
+        private PictureBox pictureBox1;
+        private PictureBox btnEncerrar;
+        private PictureBox btnMinimizar;
+        private PictureBox btnMaximizar;
+        private PictureBox btnRestaurar;
+        private PictureBox pictureBox2;
+        private Button btnConfiguracao;
+        private PictureBox pictureBox4;
         private Panel panel1;
-        private DataGridView DGV_CatCo;
-        private DataGridViewTextBoxColumn ID;
-        private DataGridViewTextBoxColumn DS;
+        private PictureBox pictureBox3;
+        private Panel panel3;
+        private Button btnQuestionario;
+        private Panel panel2;
+        private Button btnDestino;
+        private Panel panel4;
+        private Button Conta;
+        private Label labelPergunta;
+        private Panel panel5;
     }
 }

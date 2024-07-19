@@ -28,37 +28,48 @@
         /// </summary>
         private void InitializeComponent()
         {
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            btnSugerir = new Guna.UI2.WinForms.Guna2Button();
             label1 = new Label();
-            button1 = new Button();
             SuspendLayout();
+            // 
+            // btnSugerir
+            // 
+            btnSugerir.BorderRadius = 9;
+            btnSugerir.CustomizableEdges = customizableEdges1;
+            btnSugerir.DisabledState.BorderColor = Color.DarkGray;
+            btnSugerir.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnSugerir.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnSugerir.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnSugerir.FillColor = Color.FromArgb(33, 42, 57);
+            btnSugerir.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btnSugerir.ForeColor = Color.White;
+            btnSugerir.Location = new Point(88, 150);
+            btnSugerir.Name = "btnSugerir";
+            btnSugerir.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            btnSugerir.Size = new Size(155, 41);
+            btnSugerir.TabIndex = 2;
+            btnSugerir.Text = "Sugerir";
+            btnSugerir.Click += btnSugerir_Click;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(70, 92);
+            label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(88, 85);
             label1.Name = "label1";
-            label1.Size = new Size(63, 25);
-            label1.TabIndex = 0;
-            label1.Text = "label1";
-            // 
-            // button1
-            // 
-            button1.Location = new Point(539, 92);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 1;
-            button1.Text = "Sugerir";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            label1.Size = new Size(0, 21);
+            label1.TabIndex = 3;
             // 
             // fSugestChatgpt
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(button1);
+            ClientSize = new Size(1162, 450);
             Controls.Add(label1);
+            Controls.Add(btnSugerir);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "fSugestChatgpt";
             Text = "fSugestChatgpt";
             ResumeLayout(false);
@@ -66,8 +77,7 @@
         }
 
         #endregion
-
+        private Guna.UI2.WinForms.Guna2Button btnSugerir;
         private Label label1;
-        private Button button1;
     }
 }

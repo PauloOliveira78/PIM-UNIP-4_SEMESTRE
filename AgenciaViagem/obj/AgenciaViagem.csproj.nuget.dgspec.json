@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pache\\OneDrive\\Documentos\\AgenciaViagem\\AgenciaViagem\\AgenciaViagem.csproj": {}
+    "C:\\Users\\pache\\Videos\\AgenciaViagem\\AgenciaViagem\\AgenciaViagem\\AgenciaViagem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pache\\OneDrive\\Documentos\\AgenciaViagem\\AgenciaViagem\\AgenciaViagem.csproj": {
+    "C:\\Users\\pache\\Videos\\AgenciaViagem\\AgenciaViagem\\AgenciaViagem\\AgenciaViagem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pache\\OneDrive\\Documentos\\AgenciaViagem\\AgenciaViagem\\AgenciaViagem.csproj",
+        "projectUniqueName": "C:\\Users\\pache\\Videos\\AgenciaViagem\\AgenciaViagem\\AgenciaViagem\\AgenciaViagem.csproj",
         "projectName": "AgenciaViagem",
-        "projectPath": "C:\\Users\\pache\\OneDrive\\Documentos\\AgenciaViagem\\AgenciaViagem\\AgenciaViagem.csproj",
+        "projectPath": "C:\\Users\\pache\\Videos\\AgenciaViagem\\AgenciaViagem\\AgenciaViagem\\AgenciaViagem.csproj",
         "packagesPath": "C:\\Users\\pache\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pache\\OneDrive\\Documentos\\AgenciaViagem\\AgenciaViagem\\obj\\",
+        "outputPath": "C:\\Users\\pache\\Videos\\AgenciaViagem\\AgenciaViagem\\AgenciaViagem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pache\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,9 +40,17 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "dependencies": {
+            "Font": {
+              "target": "Package",
+              "version": "[0.3.0.3, )"
+            },
             "Guna.UI2.WinForms": {
               "target": "Package",
               "version": "[2.0.4.5, )"
+            },
+            "MetroFramework.Fonts": {
+              "target": "Package",
+              "version": "[1.2.0.3, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

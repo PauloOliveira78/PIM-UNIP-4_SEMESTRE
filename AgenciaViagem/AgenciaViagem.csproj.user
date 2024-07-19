@@ -4,13 +4,10 @@
     <Compile Update="Views\fCadastrarCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Views\Configuração\Categoria\fCategoria.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Views\Configuração\Categoria\fCategoriaConsultar.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="Views\fConfiguração.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\fConsultarCliente.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Views\fLogin.cs">
@@ -19,10 +16,7 @@
     <Compile Update="Views\fMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Views\Configuração\Perguntas\fPergunta.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Views\Configuração\Perguntas\fPerguntaConsultar.cs">
+    <Compile Update="Views\fQuestionario.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Views\fSugestChatgpt.cs">
