@@ -1,0 +1,1 @@
+Software apresentaado na matéria chamada PIM. Projeto Integrador de Todas matérias, onde o foco principal era o desenvolvimento de um sistemas de viagem que após usuário setar opções pré definidas, é sugerido um local para viajar através de uma API com Inteligencia Artificial 
